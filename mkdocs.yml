@@ -1,0 +1,52 @@
+site_name: MARS Documentation
+site_url: https://mydomain.org/MARSDocs
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Getting Started: 
+    - Overview: getting-started/overview.md
+    - Creating a project: getting-started/creating-a-project.md
+    - Libraries: getting-started/libraries.md
+    - APIS: getting-started/apis.md
+  - Robot base:
+    - Manifest: robotbase/manifest.md
+    - Superstructure:
+      - Superstructure: robotbase/superstructure/sup.md
+      - Superstructure IO: robotbase/superstructure/sup-io.md
+      - Superstructure Data: robotbase/superstructure/sup-data.md
+    - Bindings: 
+      - Controller map: robotbase/bindings/controller-map.md
+      - Operator & Driver bindings: robotbase/bindings/drive-bindings.md
+      - Auto bindings: robotbase/bindings/auto-bindings.md
+      - Test bindings: robotbase/bindings/test-bindings.md
+    - Key manager: robotbase/keymanager.md
+  - Mechanisms: 
+    - Mechanism creation: mechanisms/new-module.md
+    - Mechanism file: mechanisms/mechanism.md
+    - Mechanism code: mechanisms/code.md
+    - Mechanism IO: mechanisms/io.md
+    - Mechanism requests: mechanisms/request.md
+    - Mechanism request factory: mechanisms/request-factory.md
+    - Mechanism IO motor: mechanisms/hardware.md
+    - Mechanism simulation: mechanisms/simulation.md
+    - Mechanism test: mechanisms/test.md
