@@ -1,7 +1,13 @@
 
 # Controller map
 
-MARS supports Xbox and PS controllers by assigning them to a common controller map. The mapping is as follows:
+MARS supports Xbox and PS controllers by assigning them to a common controller map. This can be used trough the next import:
+
+```java
+import com.stzteam.mars.operator.ControllerOI;
+```
+
+ The mapping goes as follows:
 
 ## ActionButtons
 <div align="center">
