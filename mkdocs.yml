@@ -3,18 +3,28 @@ site_url: https://mydomain.org/MARSDocs
 
 theme:
   name: material
+  features:
+
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.tabs.link
+    - navigation.footer
   palette:
-    # Palette toggle for light mode
-    - scheme: default
+
+    - scheme: slate
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7 
-        name: Switch to dark mode
+        name: Switch to light mode
 
-    # Palette toggle for dark mode
-    - scheme: slate
+    - scheme: default
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to dark mode
 
 markdown_extensions:
   - attr_list
@@ -23,6 +33,9 @@ markdown_extensions:
   - tables
   - admonition
   - pymdownx.details
+
+extra_css:
+  - styles/style.css
 
 nav:
   - Home: getting-started/overview.md
