@@ -30,14 +30,16 @@ markdown_extensions:
   - attr_list
   - pymdownx.highlight
   - pymdownx.superfences
+  - tables
+  - admonition
+  - pymdownx.details
 
 extra_css:
   - styles/style.css
 
 nav:
-  - Home: index.md
+  - Home: getting-started/overview.md
   - Getting Started: 
-    - Overview: getting-started/overview.md
     - Creating a project: getting-started/creating-a-project.md
     - Libraries: getting-started/libraries.md
     - APIS: getting-started/apis.md

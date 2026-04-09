@@ -1,6 +1,6 @@
 # Test Routines on Mechanisms
 
-The `MechanismTest` file contains the commands that will conform the test routine for a mechanism. This routine will be published in the Elastic chooser and can be activated in the driver station.
+The `MechanismTest` file contains the commands that will conform the test routine for a mechanism. 
 
 ## Defining a test
 
@@ -14,7 +14,11 @@ Inside of `getRoutineCommand` a `return Commands.sequence()` must be modified to
 
 ### Useful methods for test routines
 
-To have a better control of the test routines, MARS provides some useful methods to create the sequence of commands that will be executed when the test case is selected in the driver station.
+To have a better control of the test routines, MARS provides some useful methods to create the sequence of commands that will be executed when the test case is selected in the driver station. This methods can be accessed trough the import:
+
+```java
+import com.stzteam.mars.test.TestRoutine;
+```
 
 - The `sequence()` method is used to create a sequence of commands that will be executed in order.
 
