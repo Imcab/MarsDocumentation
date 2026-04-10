@@ -179,9 +179,12 @@ hide:
 
       <img src="https://github.com/Endermite123.png" alt="Endermite123" class="avatar av-sm" style="top: 25%; left: 70%;">
 
-      <div class="avatar av-sm av-empty" style="top: 10%; left: 60%;"></div>
-      <div class="avatar av-md av-empty" style="top: 80%; left: 35%;"></div>
+      <img src="https://github.com/CluckPerson.png" alt="CluckPerson" class="avatar av-sm" style="top: 10%; left: 60%;">
+
+      <img src="https://github.com/Lix-08.png" alt="Lix-08" class="avatar av-sm" style="top: 45%; left: 80%;">
       
+      <div class="avatar av-md av-empty" style="top: 80%; left: 35%;"></div>
+
     </div>
   </div>
 
