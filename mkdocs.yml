@@ -55,7 +55,10 @@ nav:
       - Auto bindings: robotbase/bindings/auto-bindings.md
       - Test bindings: robotbase/bindings/test-bindings.md
     - Key manager: robotbase/keymanager.md
+    - Simulation: robotbase/simulation.md
+    - Telemetry: robotbase/telemetry.md
   - Mechanisms: 
+    - Commands: mechanisms/commands.md
     - Mechanism creation: mechanisms/new-module.md
     - Mechanism file: mechanisms/mechanism.md
     - Mechanism code: mechanisms/code.md
@@ -65,3 +68,13 @@ nav:
     - Mechanism IO motor: mechanisms/hardware.md
     - Mechanism simulation: mechanisms/simulation.md
     - Mechanism test: mechanisms/test.md
+  - Tools:
+    - Alloy: tools/alloy.md
+    - Blackboard: tools/blackboard.md
+    - Dashboard: tools/dashboard.md
+    - Logger: tools/logs.md
+    - MARS Terminal: tools/mars-terminal.md
+  - Advanced Tools:
+    -  Creating libraries: advanced-tools/creating-libraries.md
+    - Gathering modules: advanced-tools/gathering-modules.md
+    - Nodes: advanced-tools/nodes.md
