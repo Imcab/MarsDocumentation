@@ -15,3 +15,4 @@ MARS has a function to quickly create a new module. Just left click over the rob
     1. [**`MechanismTest.java`**](../mechanisms/test.md). (In case a test routine is needed)
     2. [**`MechanismSim.java`**](../mechanisms/simulation.md) (If you want to add that mechanism to the simulation robot)
     3. [**`MechanismIOMotor.java`**](../mechanisms/hardware.md) (Needs to be created according to the used motor)
+   
