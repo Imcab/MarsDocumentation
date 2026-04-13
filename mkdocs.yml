@@ -51,7 +51,7 @@ nav:
       - Superstructure Data: robotbase/superstructure/sup-data.md
     - Bindings: 
       - Controller map: robotbase/bindings/controller-map.md
-      - Operator & Driver bindings: robotbase/bindings/drive-bindings.md
+      - Controller bindings: robotbase/bindings/controller-bindings.md
       - Auto bindings: robotbase/bindings/auto-bindings.md
       - Test bindings: robotbase/bindings/test-bindings.md
     - Key manager: robotbase/keymanager.md
