@@ -33,3 +33,9 @@
     background-color: rgba(255, 77, 77, 0.3);
     color: #ffffff;
 }
+.md-typeset table {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    overflow: hidden;
+}

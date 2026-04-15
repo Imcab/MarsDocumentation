@@ -1,3 +1,4 @@
+
 # Mechanism color code
 
 MARS allows teams to write status names and match them with a color and a blinking pattern to visualize the status of the mechanism in the official Elastic. This is useful for debugging and for providing feedback to the drivers during a match. To do this, just add to the enum a status following the format:
